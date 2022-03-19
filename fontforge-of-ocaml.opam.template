@@ -1,0 +1,17 @@
+opam-version: "2.0"
+name: "fontforge-of-ocaml"
+version: "1.1.0"
+synopsis: "OCaml binding of FontForge"
+description: """
+Library providing OCaml binding of FontForge Python API
+"""
+maintainer: "http://github.com/pbaudin"
+authors: [
+  "Patrick Baudin"
+]
+license: "LGPL-2.1-only"
+homepage: "http://github.com/pbaudin/fontforge-of-ocaml"
+bug-reports: "https://github.com/pbaudin/fontforge-of-ocaml"
+messages: [
+]
+dev-repo: "git+https://github.com/pbaudin/fontforge-of-ocaml"

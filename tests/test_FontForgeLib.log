@@ -1,0 +1,97 @@
+Init Python...
+- 0 - fontforge version = "20190801"
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+- 1 - font loaded
+- 1 - fontname = FreeMonoBold
+- 1 - number of fonts loaded = 1
+- 1 - fontname = FreeMonoBold
+The glyph named Delta is mapped to U+0394.
+But its name indicates it should be mapped to U+2206.
+The glyph named Omega is mapped to U+03A9.
+But its name indicates it should be mapped to U+2126.
+The glyph named mu is mapped to U+03BC.
+But its name indicates it should be mapped to U+00B5.
+- 2 - another font loaded
+- 2 - number of fonts loaded = 2
+- 2 - fontname = FreeMonoBold
+- 2 - fontname = FreeMono
+- 3 - fontname = FreeMono
+- 3 - em = 1000 ; ascent = 800 ; descent = 200
+- 4 - selection
+- 4 - select all by slots
+- 4 - nb of iterations = 1114129
+- 4 - select all by glyphs
+- 4 - nb of iterations = 3921
+- 5 - selection
+- 5 - selection set from 1-8
+- 5 - selection added from B-J
+- 5 - selection removed from F-Z
+- 5 - selection added 9 and F
+- 5 - selection added encoding 48 and 65 (0 and A)
+- 5 - select them by glyphs
+- 5 - iter on selected ghyphs from fontname = "FreeMono"
+("zero",48) ; ("one",49) ; ("two",50) ; ("three",51) ; ("four",52) ; ("five",53) ; ("six",54) ; ("seven",55) ; ("eight",56) ; ("nine",57) ; ("A",65) ; ("B",66) ; ("C",67) ; ("D",68) ; ("E",69) ; ("F",70) ; 
+- 5 - nb of iterations = 16
+- 5 - exist A in the font = true
+- 5 - exist 65 (A) in the font = true
+- 5 - exist G in the font = true
+- 5 - exist 71 (F) in the font = true
+- 6 - copy selected glyphs into the clip board
+- 6 - Copyright (from fontforge): Copyright (c) <YYYY>, <USER>
+- 6 - Copyright (modified): COPYRIGHT (c) this-year, my-self
+- 6 - create a new font = SIMPLE
+At least one anchor point was lost when pasting from one font to another because no matching anchor class could be found in the new font.
+At least one anchor point was lost when pasting from one font to another because no matching anchor class could be found in the new font.
+At least one anchor point was lost when pasting from one font to another because no matching anchor class could be found in the new font.
+At least one anchor point was lost when pasting from one font to another because no matching anchor class could be found in the new font.
+At least one anchor point was lost when pasting from one font to another because no matching anchor class could be found in the new font.
+At least one anchor point was lost when pasting from one font to another because no matching anchor class could be found in the new font.
+- 6 - paste the glyphs from A to F into SIMPLE
+- 6 - select all by glyphs
+- 6 - iter on selected ghyphs from fontname = "SIMPLE"
+("zero",48) ; ("one",49) ; ("two",50) ; ("three",51) ; ("four",52) ; ("five",53) ; ("six",54) ; ("seven",55) ; ("eight",56) ; ("nine",57) ; ("A",65) ; ("B",66) ; ("C",67) ; ("D",68) ; ("E",69) ; ("F",70) ; 
+- 6 - nb of iterations = 16
+- 6 - exist A in the font = true
+- 6 - exist 65 (A) in the font = true
+- 6 - exist G in the font = false
+- 6 - exist 71 (F) in the font = false
+- 7 - kern features...
+- 7 - GPOS_pair lookup table...
+- 7 - kerningSubtable lookup subtable...
+- 7 - create a kerningLookUp table and kerningSubtable subtable
+- 7 - kerning A and F with delta = -300
+- 8 - ligature features...
+- 8 - create a LigatureLookUp table and LigatureSubtable subtable
+- 8 - translate x=300.000000
+- 8 - create a ligature glyph for AE = liga_A_E
+- 9 - fina features...
+- 9 - GSUB_single lookup table...
+- 9 - FinalSubtable lookup subtable...
+- 9 - create a FinalLookUp table and FinalSubtable subtable
+- 9 - create a substitution glyph for final E = E.fina
+- 10 - points...
+- 10 - point (0,1,curve=true, sel=false)
+- 11 - contours...
+- 11 - empty contour: name="" len=0 is_quadratic=false is_closed=false
+- 11 - no c[0]
+- 11 - cannot set c[0]
+- 11 - line contour c1: name="1" len=3 is_quadratic=false is_closed=true points=[(0,1,curve=true, sel=false), (4,5,curve=true, sel=false), (8,9,curve=true, sel=false)]
+- 11 - c1[0]=(0,1,curve=true, sel=false)
+- 11 - extracted contour c: name="" len=3 is_quadratic=false is_closed=false points=[(0,1,curve=true, sel=false), (4,5,curve=true, sel=false), (8,9,curve=true, sel=false)]
+- 11 - c0=c+pt1: name="" len=4 is_quadratic=false is_closed=false points=[(0,1,curve=true, sel=false), (4,5,curve=true, sel=false), (8,9,curve=true, sel=false), (1,1,curve=true, sel=false)]
+- 11 - c2=c+c: name="" len=6 is_quadratic=false is_closed=false points=[(0,1,curve=true, sel=false), (4,5,curve=true, sel=false), (8,9,curve=true, sel=false), (0,1,curve=true, sel=false), (4,5,curve=true, sel=false), (8,9,curve=true, sel=false)]
+- 11 - c contains coord: (4.000000,5.000000)=true
+- 11 - c contains coord: (0.0,0.0)=false
+- 11 - c contains point pt0: true
+- 11 - c contains point pt1: false
+- 11 - set c[1]=pt1
+- 11 - c contains point pt1: true
+- 11 - quadratic contour c2: name="2" len=5 is_quadratic=true is_closed=true points=[(1,2,curve=true, sel=false), (0,2,curve=false, sel=false), (2,4,curve=true, sel=false), (1,4,curve=false, sel=false), (3,6,curve=true, sel=false)]
+- 11 - cubic contour c3: name="3" len=7 is_quadratic=false is_closed=true points=[(3,2,curve=true, sel=false), (8,6,curve=false, sel=false), (4,2,curve=false, sel=false), (6,4,curve=true, sel=false), (11,8,curve=false, sel=false), (7,4,curve=false, sel=false), (9,6,curve=true, sel=false)]
+- 11 - c1+=c3 : name="1" len=10 is_quadratic=false is_closed=true points=[(0,1,curve=true, sel=false), (4,5,curve=true, sel=false), (8,9,curve=true, sel=false), (3,2,curve=true, sel=false), (8,6,curve=false, sel=false), (4,2,curve=false, sel=false), (6,4,curve=true, sel=false), (11,8,curve=false, sel=false), (7,4,curve=false, sel=false), (9,6,curve=true, sel=false)]
+- 11 - c1+= pt1: name="1" len=11 is_quadratic=false is_closed=true points=[(0,1,curve=true, sel=false), (4,5,curve=true, sel=false), (8,9,curve=true, sel=false), (3,2,curve=true, sel=false), (8,6,curve=false, sel=false), (4,2,curve=false, sel=false), (6,4,curve=true, sel=false), (11,8,curve=false, sel=false), (7,4,curve=false, sel=false), (9,6,curve=true, sel=false), (1,1,curve=true, sel=false)]
+- Z - ends...
+- Z - Font file generated = ./test_FontForgeLib.ttf
