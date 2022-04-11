@@ -22,7 +22,6 @@
 (generate_opam_files true)
 
 (name fontforge-of-ocaml)
-(maintainers "https://github.com/pbaudin/fontforge-of-ocaml")
 
 (package
   (name fontforge-of-ocaml)
@@ -34,9 +33,12 @@
     (ppx_python (>= v0.12.0))
   )
   (depopts
-        (headache (>= 1.05))
+     conf-python-3 ; for users of the library
+     headache      ; for developpers only
   )
-  ; (conflict ...)
+  (conflicts
+    (headache (< 1.05))
+  )
   (tags ("font" "fontforge" "binding")
   )
 )

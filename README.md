@@ -25,10 +25,9 @@ The binding is incomplete, but don't forget that the library is able to load `.f
 
 ### Installation ###
 
-The library can easily be installed from source-based package manager [Opam](https://opam.ocaml.org/)
-from a [pin](https://opam.ocaml.org/doc/Manual.html#Pinning) to this GitHub repository:
+The library can easily be installed from source-based package manager [Opam](https://opam.ocaml.org/):
 ```bash
-$ opam pin https://github.com/pbaudin/fontforge-of-ocaml
+$ opam install fontforge-of-ocaml
 ```
 
 On Ubuntu, the library relies on `python3-fontforge` package that contains the `python3` binding to `FontForge`:
