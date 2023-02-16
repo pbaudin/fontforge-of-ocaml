@@ -22,9 +22,15 @@
 (generate_opam_files true)
 
 (name fontforge-of-ocaml)
+(license LGPL-2.1-only)
+(authors "Patrick Baudin")
+(maintainers "Patrick Baudin")
+(source (github pbaudin/fontforge-of-ocaml))
 
 (package
   (name fontforge-of-ocaml)
+  (synopsis "OCaml binding of FontForge")
+  (description "Library providing OCaml binding of FontForge Python API")
   (depends
     (ocaml (>= 4.09.0))
     (base (>= v0.12.2))
