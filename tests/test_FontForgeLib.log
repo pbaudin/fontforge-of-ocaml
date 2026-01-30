@@ -1,5 +1,6 @@
 Init Python...
-- 0 - fontforge version = "20190801"
+Program root: /usr
+- 0 - fontforge version = "20230101"
 The glyph named Delta is mapped to U+0394.
 But its name indicates it should be mapped to U+2206.
 The glyph named Omega is mapped to U+03A9.
